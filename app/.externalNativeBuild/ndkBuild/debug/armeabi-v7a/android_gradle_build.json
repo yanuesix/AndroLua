@@ -1,0 +1,273 @@
+{
+  "buildFiles": [
+    "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "lua-debug-armeabi-v7a": {
+      "buildCommand": "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/liblua.a",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "lua",
+      "files": [
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lapi.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lauxlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lbaselib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lcode.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldblib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldebug.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldo.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldump.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lfunc.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lgc.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\linit.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\liolib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\llex.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lmathlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lmem.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\loadlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lobject.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lopcodes.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\loslib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lparser.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lstate.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lstring.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lstrlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ltable.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ltablib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ltm.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lundump.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lvm.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lzio.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\liblua.a"
+    },
+    "luajava-debug-armeabi-v7a": {
+      "buildCommand": "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libluajava.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "luajava",
+      "files": [
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lapi.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lauxlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lbaselib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lcode.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldblib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldebug.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldo.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ldump.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lfunc.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lgc.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\linit.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\liolib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\llex.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lmathlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lmem.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\loadlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lobject.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lopcodes.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\loslib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lparser.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lstate.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lstring.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lstrlib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ltable.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ltablib.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\ltm.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lundump.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lvm.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\lua\\lzio.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/lua -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        },
+        {
+          "src": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\luajava\\luajava.c",
+          "flags": "-gcc-toolchain E:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -fpic -ffunction-sections -funwind-tables -fstack-protector-strong -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -no-canonical-prefixes -g -target armv7-none-linux-androideabi19 -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -O0 -UNDEBUG -fno-limit-debug-info -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/luajava/../lua -IC:/Users/seifer/AndroidStudioProjects/AndroLua/app/src/main/jni/luajava -DANDROID -D__ANDROID_API__\u003d19 -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot E:/AndroidSDK/ndk-bundle/build//../sysroot -isystem E:/AndroidSDK/ndk-bundle/build//../sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libluajava.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "E:\\AndroidSDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

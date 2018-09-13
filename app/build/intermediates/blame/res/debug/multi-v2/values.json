@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "111,57",
+                        "endColumns": "45,52",
+                        "endOffsets": "152,105"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,101",
+                        "endColumns": "45,52",
+                        "endOffsets": "96,149"
+                    }
+                }
+            ]
+        }
+    ]
+}

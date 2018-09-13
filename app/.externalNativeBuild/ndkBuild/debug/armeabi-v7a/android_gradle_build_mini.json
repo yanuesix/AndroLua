@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "lua-debug-armeabi-v7a": {
+      "artifactName": "lua",
+      "buildCommand": "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/liblua.a",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\liblua.a"
+    },
+    "luajava-debug-armeabi-v7a": {
+      "artifactName": "luajava",
+      "buildCommand": "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libluajava.so",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libluajava.so"
+    }
+  }
+}

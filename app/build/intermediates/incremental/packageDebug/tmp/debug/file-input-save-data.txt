@@ -1,0 +1,35 @@
+#Internal package file, do not edit.
+#Thu Sep 13 16:35:54 CST 2018
+7.path=classes.dex
+2.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=lib/x86/libluajava.so
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+7.baseType=DIRECTORY
+2.set=ASSET
+1.path=lib/x86_64/libluajava.so
+4.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+7.set=DEX
+count=8
+5.baseType=DIRECTORY
+2.path=import.lua
+5.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\assets\\debug
+4.set=NATIVE_RESOURCE
+3.path=lib/armeabi/libluajava.so
+6.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=lib/arm64-v8a/libluajava.so
+7.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=greet.lua
+0.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.baseType=DIRECTORY
+3.set=NATIVE_RESOURCE
+6.path=lib/armeabi-v7a/libluajava.so
+1.base=C\:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE

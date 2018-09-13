@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "lua-release-x86": {
+      "artifactName": "lua",
+      "buildCommand": "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/release/obj/local/x86/liblua.a",
+      "abi": "x86",
+      "output": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\liblua.a"
+    },
+    "luajava-release-x86": {
+      "artifactName": "luajava",
+      "buildCommand": "E:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dC:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\release\\lib C:/Users/seifer/AndroidStudioProjects/AndroLua/app/build/intermediates/ndkBuild/release/obj/local/x86/libluajava.so",
+      "abi": "x86",
+      "output": "C:\\Users\\seifer\\AndroidStudioProjects\\AndroLua\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libluajava.so"
+    }
+  }
+}
